@@ -280,3 +280,19 @@
   justify-content: center;
   font-family: 'Hurricane', cursive;
 }
+
+/* exito html*/
+.exito {
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin: 100px;
+  flex-wrap: wrap;
+}
+
+.body-exito {
+  background-image: url(../images/fotos-exito/libro2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
