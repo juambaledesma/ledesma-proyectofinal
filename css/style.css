@@ -262,11 +262,21 @@
 /* footer igual todas las secciones */
 
 .footer {
-  background-color: rgba(38, 57, 153, 0.726);
+  background-color: rgba(215, 217, 228, 0.726);
   
 }
+
 .div-footer a {
   display: inline-block;
   cursor: pointer;
   margin: 8px;
+}
+.redes {
+  padding: 0 0 0 10px;
+}
+.footer-animate {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-family: 'Hurricane', cursive;
 }
