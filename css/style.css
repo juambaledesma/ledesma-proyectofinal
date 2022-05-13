@@ -152,7 +152,10 @@
   color: rgb(140, 0, 255);
   display: flex;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 50px 50px 50px 50px;
+  justify-items: center;
+  justify-content: center;
+  padding: 50px;
+
 }
 /* fin blog.html */
 /* escriben.html */
@@ -266,21 +269,4 @@
   display: inline-block;
   cursor: pointer;
   margin: 8px;
-}
-
-.footer .whatsapp:active{
-  background-color: #4fce5d;
-}
-
-.footer .instagram:active{
-  background: radial-gradient(
-  #fed373 4%,
-  #f15245 30%,
-  #d92e7f 62%,
-  #9b36b7 85%,
-  #515ecf);
-}
-
-.footer .facebook:active{
-  background-color: #3b5998;
 }
