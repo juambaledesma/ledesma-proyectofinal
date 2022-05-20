@@ -255,6 +255,22 @@
 .form-row button:active {
   background-color: rgb(19, 19, 20);
 }
+
+@media screen and (max-width: 400px) {
+  .form-row textarea {
+    max-width: 150px;
+    max-height: 100px;
+    
+  }
+  .form-row input {
+    max-width: 150px;
+    max-height: 100px;
+  }
+  .form-row button {
+    max-width: 150px;
+    max-height: 100px;
+  }
+}
   
 /* fin form */
 /*fin section contacto*/
@@ -279,6 +295,12 @@
   justify-items: center;
   justify-content: center;
   font-family: 'Hurricane', cursive;
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    position: sticky;
+  }
 }
 
 /* exito html*/
